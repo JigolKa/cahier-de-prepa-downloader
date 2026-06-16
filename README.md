@@ -5,6 +5,8 @@ Télécharge tous les fichiers d'un site Cahier de Prépa.
 ### Installation
 
 ```bash
+git clone https://github.com/JigolKa/cahier-de-prepa-downloader
+cd cahier-de-prepa-downloader
 pip install -r requirements.txt
 ```
 
