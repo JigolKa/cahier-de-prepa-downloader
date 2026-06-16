@@ -18,3 +18,13 @@ exemple:
 Entrez l'url du site sous la forme: https://cahier-de-prepa.fr/<lycée>/
 URL: https://cahier-de-prepa.fr/mp2i-fermat/
 ```
+
+### Connexion
+
+Créez un fichier `.env` et remplissez le de telle sorte:
+
+```
+LOGIN=true
+UTILISATEUR=<votre nom d'utilisateur>
+MOT_DE_PASSE=<votre mot de passe>
+```

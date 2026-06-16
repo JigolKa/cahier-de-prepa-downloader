@@ -103,7 +103,7 @@ nom = get_lycee()
 def main():
     driver.get(URL)
 
-    if os.environ["LOGIN"] == "true":
+    if "LOGIN" in os.environ and os.environ["LOGIN"] == "true":
         login()
 
     content = driver.page_source
