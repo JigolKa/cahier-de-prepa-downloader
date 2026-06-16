@@ -1,3 +1,5 @@
+from tkinter import BASELINE
+
 import requests, os, time
 from selenium import webdriver
 from bs4 import BeautifulSoup
@@ -28,6 +30,8 @@ def mkdir(directory):
 # BASE_URL="https://cahier-de-prepa.fr/mp2i-fermat/"
 print("Entrez l'url du site sous la forme: https://cahier-de-prepa.fr/<lycée>/")
 BASE_URL = input("URL: ")
+if BASE_URL[-1] != "/":
+    BASE_URL += "/"
 URL = BASE_URL + "docs"
 
 driver = initialize_driver()
