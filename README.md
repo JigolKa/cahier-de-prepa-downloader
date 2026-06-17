@@ -21,7 +21,9 @@ URL: https://cahier-de-prepa.fr/mp2i-fermat/
 
 ### Connexion
 
-Créez un fichier `.env` et remplissez le de telle sorte:
+(Optionnel) <br/>
+
+Pour télécharger les fichiers contenus dans des dossiers verrouillés, créez un fichier `.env` et remplissez le de telle sorte:
 
 ```
 LOGIN=true

@@ -34,6 +34,8 @@ if BASE_URL[-1] != "/":
     BASE_URL += "/"
 URL = BASE_URL + "docs"
 
+print("Chargement...")
+
 driver = initialize_driver()
 
 
